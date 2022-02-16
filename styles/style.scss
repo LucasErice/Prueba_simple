@@ -1,0 +1,29 @@
+@import "generales";
+@import "nav";
+@import "hero";
+@import "servicios";
+@import "formulario";
+
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color: $oscuro;
+    margin-top: 1rem;
+    
+    span{
+        font-size: 2rem;
+    }
+} 
+
+footer{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+
+
+
+  
+
+  

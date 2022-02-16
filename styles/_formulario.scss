@@ -1,0 +1,67 @@
+.formulario{
+    background-color: $gris;
+    width: 60rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+
+    @media ( max-width: 666px){
+        width: auto;
+    }
+
+    .campo{
+        margin-bottom: 1rem;
+
+        label{
+            color: $blanco;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        input{
+            width: 100%;
+            border: none;
+            padding: 1.2rem;
+        }
+    }
+
+    fieldset{
+        border: none;
+
+        legend{
+            text-align: center;
+            color: $primario;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+        }
+
+        .boton-enviar{
+            background-color: $secundario;
+            text-decoration: none;
+            color: $blanco;
+            margin-top: 2.5rem;
+            padding: 1rem;
+            border-radius: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            width: 30%;
+            text-align: center;
+            border: none;
+            margin-left: 70%;
+
+            @media (max-width: 485px){
+                width: 80%;
+                margin: auto auto;
+            }
+            
+            &:hover{
+                background-color: $primario;
+                color: $oscuro;
+            }
+        }
+    }
+}
